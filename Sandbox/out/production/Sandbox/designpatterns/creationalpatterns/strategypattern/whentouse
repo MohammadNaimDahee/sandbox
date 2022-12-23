@@ -1,0 +1,5 @@
+Often reduces long lists of conditionals
+Avoids duplicate code
+Keeps class changes from forcing other class changes
+Can hide complicated / secret code from the user
+Negative: Increased Number of Objects / Classes

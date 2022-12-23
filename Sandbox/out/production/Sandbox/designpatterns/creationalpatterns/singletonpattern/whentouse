@@ -1,0 +1,6 @@
+What is Singleton Pattern?
+
+    It is used when you want to eliminate the option of instantiating more the one object
+    I'll demonstrate it using a class that holds all the potential Scrabble letters and spits out new ones upon request
+        Each player will share the same potential letter list
+        Each player has their own set of letters

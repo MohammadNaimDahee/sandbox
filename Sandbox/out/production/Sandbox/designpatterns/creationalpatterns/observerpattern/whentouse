@@ -1,0 +1,12 @@
+The OBSERVER PATTERN is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies
+them automatically of any state changes, usually by calling one the their methods.
+
+When you need many other objects to receive an update when another object changes.
+    Stock market with thousands of stocks needs to send updates to objects representing individual stocks
+    The subject (publisher) sends many stocks to the observers
+    The observers(Subscribers) takes the ones they want to use them
+
+Loose coupling is a benefit
+    The subject (publisher) doesn't need to know anything about the observers (Subscribers)
+
+Negatives: The Subject (Publisher) may send updates that don't matter to the observer (subscriber)

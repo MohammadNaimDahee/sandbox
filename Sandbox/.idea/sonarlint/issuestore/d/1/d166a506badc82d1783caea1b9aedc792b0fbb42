@@ -1,0 +1,9 @@
+
+‡
+java:S1319<"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(Á—×Ò
+‡
+java:S1319@"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(ëıŸ©
+t
+java:S2142)"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+T
+java:S2168/"9Remove this dangerous instance of double-checked locking.(¦®…ûÿÿÿÿ
