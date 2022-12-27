@@ -185,7 +185,7 @@
                         }]
                     }; */
                     var docDefinition = {
-                        header: function (currentPage, pageCount, pageSize) {
+                        /* header: function (currentPage, pageCount, pageSize) {
                             return {
                                 table: {
                                     widths: [200, 100, 200],
@@ -194,11 +194,30 @@
                                     ]
                                 }
                             };
+                        },*/
+                        pageMargins: [40, 80, 40, 40],
+                        header: {
+                            margin: 10,
+                            columns: [
+
+                                {
+                                    text: "This is the text"
+                                },
+                                {
+                                    text: "This is the text, "
+                                },
+                                {
+                                    text: "This is the text"
+                                }
+                            ]
                         },
                         content: [
                             {
-
                                 image: logoUrl,
+                                width: 150,
+                                height: 150,
+                            },
+                            {
                                 layout: 'lightHorizontalLines', // optional
                                 table: {
                                     // headers are automatically repeated if the table spans over multiple pages
