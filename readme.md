@@ -5,8 +5,8 @@ Sandbox will elaborate a list of projects in different programming languages for
 ## Projects
 
 **Jquery-Print-Func:** A project written in HTML and Javascript (Jquery) to convert your html code into PDF files. **_HTML and JAVASCRIPT_**
-
 **Sandbox:** This will elaborate the Software Design patterns. (Creational Patters, Structural Patters and Behavioral Patterns). **_JAVA_**
+**Profile:** A portfolio of mine. **_Angular_**
 
 ## Acknowledgements
 
